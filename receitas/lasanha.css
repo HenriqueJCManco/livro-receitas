@@ -1,0 +1,7 @@
+body{
+    background-color: bisque;
+    align-items: center;
+}
+#pergunta :hover{
+    background-color: black;
+}
