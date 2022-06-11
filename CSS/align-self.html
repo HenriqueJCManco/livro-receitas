@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            max-width: 350px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            display: flex;
+        }
+        .item{
+            background-color: olivedrab;
+            color: wheat;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .center{
+            align-self: center;
+        }
+        .start{
+            align-self: flex-start;
+        }
+        .baseline{
+            align-self: baseline;
+        }
+        .end{
+            align-self: flex-end;
+        }
+        .stretch{
+            align-self: stretch;
+        }
+        .auto{
+            align-self: auto;
+        }
+        .aling-container{
+            align-items: center;
+        }
+        .column{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item auto">AAAAA</div>
+        <div class="item auto">BBB</div>
+        <div class="item auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est, officia nulla et accusamus dolor obcaecati commodi? Nobis illum qui quisquam dolore odio facere, dicta, culpa ipsa molestiae non harum.</div>
+        <div class="item auto">DDDD</div>
+    </div>
+
+    <div class="flex-container">
+        <div class="item stretch">AAAAA</div>
+        <div class="item center">BBB</div>
+        <div class="item start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est, officia nulla et accusamus dolor obcaecati commodi? Nobis illum qui quisquam dolore odio facere, dicta, culpa ipsa molestiae non harum.</div>
+        <div class="item end">DDDD</div>
+    </div>
+
+    <div class="flex-container">
+        <div class="item start">AAAAA</div>
+        <div class="item baseline">BBB</div>
+        <div class="item stretch">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est, officia nulla et accusamus dolor obcaecati commodi? Nobis illum qui quisquam dolore odio facere, dicta, culpa ipsa molestiae non harum.</div>
+        <div class="item auto">DDDD</div>
+    </div>
+
+    <h1>colunm</h1>
+</body><div class="flex-container column">
+    <div class="item start">AAAAA</div>
+    <div class="item stretch">BBB</div>
+    <div class="item stretch">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est, officia nulla et accusamus dolor obcaecati commodi? Nobis illum qui quisquam dolore odio facere, dicta, culpa ipsa molestiae non harum.</div>
+    <div class="item end">DDDD</div>
+</div>
+</html>
