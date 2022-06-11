@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos: align conten</title>
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .item{
+            background-color: orange;
+            padding: 0 5px;
+            margin: 5px;
+            flex:1;
+            text-align: center;
+            color: white;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .around{
+            align-content: space-around;
+        }
+        .between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">. Nobis cupiditate eum magni odit.</div>
+        <div class="item">sicing elit. Ducimus placeat perrchitecto quod eos est doloremque recusandae porro, tempora iusto laboriosam. Nobis cupiditate eum magni odit.</div>
+        <div class="item"> amet cons eum magni odit.</div>
+        <div class="item"> amet consectetit.  ris cupiditate eum magni odit.</div>
+        <div class="item">cupiditate eum magni odit.</div>
+    </div>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">. Nobis cupiditate eum magni odit.</div>
+        <div class="item">Lorem nsectetur adipisicing elit. to quodboriosam. Nobis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit.  recusandae po Nobis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit.  recusan Nobis cupiditate eum magni odit.</div>
+        <div class="item">cupiditate eum magni odit.</div>
+    </div>
+    <p>center</p>
+    <div class="container center">
+        <div class="item">. Nobis cupiditate eum magni odit.</div>
+        <div class="item">Lorem nsectetur adipisicing elit.  recusandae porro, tebis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit.  recusandae porram. Nobis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit. obis cupiditate eum magni odit.</div>
+        <div class="item"> odit.</div>
+    </div>
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">. Nobis cupiditate eum magni odit.</div>
+        <div class="item">Lorem nsectetur adipisicing elit.  recusandae porro, tebis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit.  recusandae porram. Nobis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit. obis cupiditate eum magni odit.</div>
+        <div class="item"> odit.</div>
+    </div>
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">. Nobis cupiditate eum magni odit.</div>
+        <div class="item">Lorem nsectetur adipisicing elit.  recusandae porro, tebis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit.  recusandae porram. Nobis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit. obis cupiditate eum magni odit.</div>
+        <div class="item"> odit.</div>
+    </div>
+    <p>around</p>
+    <div class="container around">
+        <div class="item">. Nobis cupiditate eum magni odit.</div>
+        <div class="item">Lorem nsectetur adipisicing elit.  recusandae porro, tebis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit.  recusandae porram. Nobis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit. obis cupiditate eum magni odit.</div>
+        <div class="item"> odit.</div>
+    </div>
+    <p>between</p>
+    <div class="container between">
+        <div class="item">. Nobis cupiditate eum magni odit.</div>
+        <div class="item">Lorem nsectetur adipisicing elit.  recusandae porro, tebis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit.  recusandae porram. Nobis cupiditate eum magni odit.</div>
+        <div class="item"> amet consectetur adipisicing elit. obis cupiditate eum magni odit.</div>
+        <div class="item"> odit.</div>
+    </div>
+
+</body>
+</html>
