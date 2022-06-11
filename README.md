@@ -1,7 +1,9 @@
 # Livro de Receitas
 
-Olá aqui deixaremos as receitas que podem deixar o seu dia ainda melhor
+Utilizando esse recepitório privado para guardar anotações e exercícios realizados em aula.
 
--  Lasanha de presunto
-  
-  s     
+```
+D:\workspace\livro-receitas\
+```
+
+
